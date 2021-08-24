@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*======================
     404 page
@@ -72,4 +73,80 @@ body{
     color: #333!important;
     transition: all .3s ease-in-out;
    
+=======
+
+/*======================
+    404 page
+=======================*/
+
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap);
+
+
+
+body{
+    width: 70vw;
+    margin: auto;
+    font-family: 'poppins';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
+}
+
+.page_404  img{ width:100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.four_zero_four_bg{
+ 
+ background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+ background-repeat: no-repeat;
+    height: 400px;
+    background-position: center;
+ }
+ 
+ 
+ .four_zero_four_bg h1{
+ font-size:80px;
+ font-family: 'poppins';
+ }
+ p{
+    font-family: 'poppins';
+ }
+ h1,h2,h3,h4,h5,h6,a{
+    font-family: 'poppins';
+ }
+
+ a{
+     text-decoration: none;
+     font-weight: 200;
+     
+ }
+  .four_zero_four_bg h3{
+			 font-size:80px;
+             font-family: 'poppins';
+			 }
+			 
+			 .link_404{			 
+	color: #fff!important;
+    padding: 10px 20px;
+    background: #dd9a05;
+    border-radius: 2px;
+    margin: 20px 0;
+    outline: none;
+    display: inline-block;}
+	.contant_box_404{ margin-top:-50px;}
+
+.link_404:hover{
+    background-color: transparent;
+    border: 2px solid #dd9a05 ;
+    outline: none;
+    color: #333!important;
+    transition: all .3s ease-in-out;
+   
+>>>>>>> fcd36c80e4e016bc890dba119931ea91c5e2b658
 }
